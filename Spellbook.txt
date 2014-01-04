@@ -1,0 +1,12 @@
+Git repositories live in C:\Github
+The repository I set up is in C:\Github\Captioning
+These can be moved, if you want.  But make sure you move the Github folder.
+
+Get everyone's changes to your repository (only relevant if other people use it):  git pull origin master
+Check the current status of files in the repository:  git status
+Begin tracking changes to a file:  git add [FILENAME]
+Ready changes for being pushed to the server:  git commit -m "[DESCRIPTION OF YOUR CHANGES]"
+Copy changes to the server:  git push origin master
+Oh, shit!  I broke [FILENAME]:  git checkout -- [FILENAME]
+
+A convenience about filenames:  Git is really good at auto-completing filenames, so you can type the first few characters of a filename and then just press TAB.  If there are multiple files with those first few characters, keep pressing tab to cycle through them.  You can also add large groups of files at once by typing "git add *.txt" in the example where you would want to track all changes to .txt files.
